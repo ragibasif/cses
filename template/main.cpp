@@ -1,22 +1,22 @@
-#include <iostream> // std::cout, std::cin, std::endl - Input/Output
-#include <vector> // std::vector - dynamic array
-#include <string> // std::string
-#include <algorithm> // std::sort, std::binary_search, std::lower_bound, std::upper_bound
+#include <iostream> // cout, cin, endl - Input/Output
+#include <vector> // vector - dynamic array
+#include <string> // string
+#include <algorithm> // sort, binary_search, lower_bound, upper_bound
 #include <cassert> // assert - for debugging
-#include <unordered_map> // std::unordered_map - hash map
-#include <unordered_set> // std::unordered_set - hash set
-#include <queue> // std::queue, std::priority_queue
-#include <stack> // std::stack
-#include <set> // std::set, std::multiset - (non-hashed, tree) ordered set
-#include <map> // std::map, std::multimap - (non-hashed, tree) ordered key-value pairs
-#include <bitset> // std::bitset - for binary data
-#include <utility> // std::pair
+#include <unordered_map> // unordered_map - hash map
+#include <unordered_set> // unordered_set - hash set
+#include <queue> // queue, priority_queue
+#include <stack> // stack
+#include <set> // set, multiset - (non-hashed, tree) ordered set
+#include <map> // map, multimap - (non-hashed, tree) ordered key-value pairs
+#include <bitset> // bitset - for binary data
+#include <utility> // pair
 #include <cmath> // sqrt, pow, abs
 #include <climits> //INT_MAX, INT_MIN
 #include <cstdint> // int64_t, uint64_t, etc. - fixed-width integer types
-#include <functional> // std::greater, std::less - function objects and operations
+#include <functional> // greater, less - function objects and operations
 #include <iterator> // iterators and related items
-#include <numeric> // std::accumulate, std::gcd, std::lcm - numeric operations
+#include <numeric> // accumulate, gcd, lcm - numeric operations
 using namespace std; // removes the need to use std::
 void fastIO();
 void solve();
